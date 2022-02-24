@@ -1,0 +1,166 @@
+#main{
+    width:100%;
+    height:30px;
+    background-color:#ff4693;
+    color:white;
+    font-family:sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px;
+    margin: auto;
+    }
+    
+    .top{height:550px;
+        width:100;
+        position: relative;
+    }
+    #one{
+        height:550px;
+        width:100%;
+        position: absolute;
+        z-index: 9;
+    }
+    #two{
+        width: 100%;
+     height:550px;
+     position: absolute;
+     right:0px;
+    }
+    
+    .topdown{
+        color: #2f3337;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        line-height: 1.2;
+        font-size: 32px;
+        margin: 0 0 32px 0;
+        font-weight: bold;
+        text-align: center;
+    }
+      #container{
+        display:grid;
+        grid-template-columns:repeat(6, 1fr);
+        margin-top: 10px;
+        background-color: white;
+        gap:30px;
+        margin:auto;
+    }
+     #container>div img {
+            width: 180px;
+            height: 180px;
+            border : 1px;
+            padding:auto;
+            border-radius:5px;
+          }
+    #container>div>p{
+        color: #2f3337;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        line-height :1.2;
+        text-align:center;
+        margin:auto;
+        font-weight: bold;
+        font-size:18px;
+        padding:5px;
+    }
+    
+    .heading2{
+        color: #2f3337;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        line-height: 1.2;
+        font-size:25px;
+        margin-top:60px;
+        text-align: center;
+    }
+    
+    .box{
+        display:grid; 
+        grid-template-columns: repeat(6,1fr); 
+        margin-top: 10px;
+        background-color: white;
+        margin:auto;
+        gap:20px;
+        box-sizing: border-box;
+    }
+    .box>div img{
+        height:200px;
+        width:200px;
+        margin: auto;
+        position: relative;
+    }
+      
+    .box>div>h5{
+       color: #c7202c;
+       font-size: 16px;
+       font-weight: 700;
+       font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+       text-align: left;
+       margin: auto;
+    }
+    h5~p{
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        text-align: left;
+        margin: auto;
+        color: #2f3337;
+        font-size: 16px;
+        height: 42px;
+        line-height: 1.25;
+        margin-bottom:10px;
+        overflow: hidden;
+    }
+    
+    .bag>img{
+        margin-top:40px;
+        height:550px;
+        border-radius:5px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    @media all and (min-width:600px) and (max-width:900px){
+     #container{
+         grid-template-columns: repeat(2,1fr);
+         grid-template-rows:repeat(3,190px);
+         margin-bottom: 10px;
+         background-color: white;
+         gap:30px;
+         margin:auto;
+     }
+     
+     .box{
+        display:grid; 
+        grid-template-columns: repeat(2,1fr); 
+        grid-template-rows: repeat(3,250px);
+        margin-top: 10px;
+        background-color: white;
+        margin:auto;
+        gap:30px;
+        box-sizing: border-box;
+    }
+
+    }
+
+    @media all and (min-width:50px) and (max-width:600px){
+        #container{
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows:repeat(6,180px);
+            margin-bottom: 10px;
+            background-color: white;
+            gap:30px;
+            margin:auto;
+        }
+        
+        #container>div>p{
+            text-align: left;
+          }
+        .box{
+           display:grid; 
+           grid-template-columns: repeat(1,1fr); 
+           grid-template-rows: repeat(6,250px);
+           margin-top: 10px;
+           background-color: white;
+           margin:auto;
+           gap:30px;
+           box-sizing: border-box;
+       }
+
+        }
