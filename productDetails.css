@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+
+    /* border: 1px solid red; */
+    width: 60%;
+    /* height: 500px; */
+    margin: 170px auto auto 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between
+}
+.first, .second{
+    border: 2px solid black;
+    width: 45%;
+    height: 100%;
+    padding: 10px;
+}
+
+.second{
+    
+    height: 100%;
+    padding-bottom: 50px;
+} 
+#footer{
+    background-color: #535658;
+    position: absolute;
+    top: calc(100vh - 100px);
+    width: 100%;
+    
+    height: 100px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+#footer p{
+    width: 20%;
+    margin: 20px auto;
+}
