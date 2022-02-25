@@ -31,7 +31,7 @@ function display(selectedItem) {
 
     var button = document.createElement("button");
     button.innerText = "Add to Cart";
-    button.style.backgroundColor = "black"
+    button.style.backgroundColor = "rgba(65, 142, 73, 0.85)"
     button.style.color = "white"
     button.style.width = "50%"
     button.style.fontSize = "18px"
@@ -55,7 +55,8 @@ function display(selectedItem) {
     
     var offer = document.createElement("div")
     offer.style.width = "50%"
-    offer.style.border = "2px solid black"
+    // offer.style.border = "2px solid black"
+    offer.style.boxShadow = "rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px";
     offer.style.borderRadius = "5px "
 
     var para = document.createElement("p")
@@ -82,7 +83,7 @@ function display(selectedItem) {
     sale.style.margin = "30px 0 20px 0"
     sale.style.color = "red"
     sale.style.padding = "10px"
-    sale.style.border = "2px solid black"
+    sale.style.boxShadow = "rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px";
     sale.style.borderRadius = "5px "
     sale.innerHTML = `<p><strong>Hurry!!!</strong>
     Sale ends in <strong> 2 days </strong>. Use <strong><em>masai30</em></strong> and get <strong>30% OFF</strong>  </p>`
