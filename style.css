@@ -78,6 +78,7 @@ p{
     position: fixed;
     z-index: 5;
     width: 100%;
+    background-color: white;
 }
 .navlink{
     font-size: 15px;
