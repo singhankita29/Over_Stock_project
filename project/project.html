@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        body>h2{
+            text-align: center;
+            padding-bottom: 10px;
+            
+
+        }
+       #fresh_finds{
+           display: grid;
+           width: 95%;
+           grid-template-columns: repeat(6,1fr);
+           grid-template-rows: repeat(2,200px);
+           gap: 10px;
+           margin:auto;
+           padding-bottom: 20px;
+       }
+       #fresh_finds>div{
+           text-align: center;
+           
+       }
+       #fresh_finds>div>img{
+           height: 160px;
+       }
+       #new_year{
+           display: grid;
+           width: 98%;;
+           grid-template-columns: repeat(4,1fr);
+           grid-template-rows: 250px;
+           gap:10px;
+           margin: auto;
+
+       }
+       #new_year>div{
+        text-align: center;
+        margin-bottom: 10px;
+       }
+       #new_year>div>img{
+           height: 250px;
+           width: 100%;
+       }
+       #new_year>div>p{
+           font-size: small;
+           margin-top: -10px;
+       }
+       #suit_furnitureImage>img{
+           height: 70%;
+           width: 98%;
+           margin: 130px 2px 2px 10px;
+       }
+       #featured_brands{
+           display: grid;
+           width: 98%;;
+           grid-template-columns: repeat(4,1fr);
+           grid-template-rows: 250px;
+           gap:15px;
+           margin: auto;
+       }
+       #featured_brands>div{
+        text-align: center;
+        margin-bottom: 10px;
+       }
+       #featured_brands>div>img{
+           height: 250px;
+           width: 100%;
+       }
+       #explore_room>img{
+           height: 50%;
+           width: 98%;
+           margin: 130px 2px 2px 10px;
+       }
+     @media all and (min-width:600px) and (max-width:900px){
+        #fresh_finds{
+               grid-template-columns: repeat(4,1fr);
+               grid-template-rows: repeat(3,200px);
+               margin-bottom: 5px;
+           }
+        #new_year{
+           display: grid;
+           width: 98%;;
+           grid-template-columns: repeat(2,1fr);
+           grid-template-rows:repeat(2,250px);
+           gap:10px;
+           margin: auto;
+          }
+         #featured_brands{
+           display: grid;
+           width: 98%;;
+           grid-template-columns: repeat(2,1fr);
+           grid-template-rows:repeat(2,250px);
+           gap:10px;
+           margin: auto;
+          }
+          #new_year>div>img{
+           height: 75%;
+           width: 85%;
+           margin: -10px;
+         }
+         #featured_brands>div>img{
+           height: 75%;
+           width: 85%;
+       }
+       #suit_furnitureImage>img{
+           height: 70%;
+           width: 98%;
+           margin: 30px 2px 2px 5px;
+       }
+       #explore_room>img{
+           margin: 30px 2px 2px 10px;
+       }
+      
+        }
+    @media all and (min-width:50px) and (max-width:600px){
+        #fresh_finds{
+               grid-template-columns: repeat(2,1fr);
+               grid-template-rows: repeat(6,200px);
+               margin-bottom: 5px;
+           }
+        #new_year{
+           display: grid;
+           width: 98%;;
+           grid-template-columns: repeat(1,1fr);
+           grid-template-rows:repeat(4,250px);
+           gap:10px;
+           margin: auto;
+          }
+          #featured_brands{
+           display: grid;
+           width: 98%;;
+           grid-template-columns: repeat(1,1fr);
+           grid-template-rows:repeat(4,250px);
+           gap:10px;
+           margin: auto;
+       }
+       #new_year>div>img{
+           height: 80%;
+           width: 85%;
+           margin: auto;
+       }
+       #featured_brands>div>img{
+           height: 75%;
+           width: 85%;
+           margin: auto;
+        }
+        #suit_furnitureImage>img{
+           height: 70%;
+           width: 98%;
+           margin: 30px 2px 2px 5px;
+       }
+       #explore_room>img{
+           margin: 30px 2px 2px 10px;
+       }
+    }
+    </style>
+</head>
+<body>
+    <h2>Fresh Finds In Each Category</h2>
+    <div id="fresh_finds"></div>
+    <h2>New Year, New Ways to Save</h2>
+    <div id="new_year"></div>
+    <div id="suit_furnitureImage"><img src="Screenshot 2022-02-23 130102.png" alt=""></div>
+    <h2>Overstock Featured Brands</h2>
+    <div id="featured_brands">
+        <div><img src="https://ak1.ostkcdn.com/img/mxc/C-Mod_33581952.jpg?imwidth=1920">
+            <p>
+                <b>Extra 25% off</b>
+                <br>
+                Select Rugs by
+                <br>
+                Artistic Weavers & More*
+            </p>
+        
+        </div>
+        <div><img src="https://ak1.ostkcdn.com/img/mxc/C-Mod_26659266.jpg?imwidth=1920">
+            <p>
+                <b>Extra 25% off</b>
+                <br>
+                Select Furniture by
+                <br>
+                Greyson Living*
+            </p>
+        
+        </div>
+        <div><img src="https://ak1.ostkcdn.com/img/mxc/C-Mod_36780487.jpg?imwidth=1920">
+            <p>
+                <b>Extra 15% off</b>
+                <br>
+                Select Office Furniture by
+                <br>
+                Bush*
+            </p>
+        
+        </div>
+        <div><img src="https://ak1.ostkcdn.com/img/mxc/C-Mod_HP_C_Mod_22687048.jpg?imwidth=1920">
+            <p>
+                <b>Extra 25% off</b>
+                <br>
+                Select Decorative Rugs by
+                <br>
+                Unique Looms*
+            </p>
+        
+        </div>
+    </div>
+    <div id="explore_room"><img src="Screenshot 2022-02-24 161938.png" alt=""></div>
+    
+
+</body>
+</html>
+<script>
+    
+    var freshFind=[
+        {image:"https://ak1.ostkcdn.com/img/mxc/11192021-CatSilo-Furniture.png?imwidth=1920",name:"Furniture"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/11152021-CatSilo-AreaRugs.png?imwidth=1920",name:"Area Rugs"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/11152021-CatSilo-BedBath.png?imwidth=1920",name:"Bed & Bath"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/11152021-CatSilo-Decor.png?imwidth=1920",name:"Home Decor"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/CatSilo-Window-040721.jpg?imwidth=1920",name:"Window Treatments"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/11152021-CatSilo-Kitchen.png?imwidth=1920",name:"Kitchen"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/11192021-CatSilo-Outdoor.png?imwidth=1920",name:"Outdoor"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/01112021-CatSilo-HomeImp.jpg?imwidth=1920",name:"Home Improvement"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/11152021-CatSilo-Storage.png?imwidth=1920",name:"Storage"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/01112021-CatSilo-Mattresses.jpg?imwidth=1920",name:"Matresses"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/11152021-CatSilo-Lighting.png?imwidth=1920",name:"Lighting"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/CatSilo-AllDeals-040721.jpg?imwidth=1920",name:"Shop All Deal"}
+    ];
+
+
+freshFind.map(function(element){
+    
+        var fresh_finds_div = document.createElement("div");
+
+         var pics = document.createElement("img");
+         pics.setAttribute("src",element.image)
+
+         var names= document.createElement("p");
+         names.innerText=element.name;
+         
+        
+         fresh_finds_div.append(pics,names);
+         document.querySelector("#fresh_finds").append(fresh_finds_div);
+    })
+    var newYear = [
+        {image:"https://ak1.ostkcdn.com/img/mxc/12132021_21667_SC02_Pattern_Bedding_E.png?imwidth=1920",
+        type:"Top-Rated Bedding",
+        about:"Save on our best bedding, a perfect combination of comfort."},
+        {image:"https://ak1.ostkcdn.com/img/mxc/12132021_2021FA_ENT02_Fall_Entryway_MN_01.png?imwidth=1920",
+        type:"Entryway Benches",
+        about:"Freshen up your foyer with beautiful benches for storage and sitting."},
+        {image:"https://ak1.ostkcdn.com/img/mxc/12132021_2021SU_LR02_Summer_Living_Room_MN_04.png?imwidth=1920",
+        type:"Multifunctional Furnitures",
+        about:"Shop furniture that does more, perfect for small homes."},
+        {image:"https://ak1.ostkcdn.com/img/mxc/12132021_2020WI_SC03_Mattress_MN_04.png?imwidth=1920",
+        type:"Top-Rated Matresses",
+        about:"Stop counting sheep &amp; start getting sleep with great deals on great mattresses."}
+    ];
+newYear.map(function(element){
+        var newSave = document.createElement("div");
+
+        var pics = document.createElement("img");
+        pics.setAttribute("src",element.image);
+
+        var types = document.createElement("h3");
+        types.innerText=element.type
+
+        var para = document.createElement("p");
+        para.innerText=element.about
+        
+        newSave.append(pics,types,para);
+        document.querySelector("#new_year").append(newSave);
+    })
+    
+</script>
