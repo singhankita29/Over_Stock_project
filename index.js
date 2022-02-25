@@ -1,51 +1,243 @@
 document.querySelector(".burger").addEventListener("click",func);
 document.querySelector("#sub1").addEventListener("click",function(){
-    document.querySelector(".livingfurni-bar").style.display="block";
+    var div=document.querySelector(".livingfurni-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 })
 document.querySelector("#sub2").addEventListener("click",function(){
-    document.querySelector(".bedfurni-bar").style.display="block";
+    var div=document.querySelector(".bedfurni-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 })
 document.querySelector("#ac").addEventListener("click",function(){
-    document.querySelector(".acc-bar").style.display="block";
+    var div=document.querySelector(".acc-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 });
 document.querySelector("#con").addEventListener("click",function(){
-    document.querySelector(".con-bar").style.display="block";
+    var div=document.querySelector(".con-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 });
 document.querySelector("#one").addEventListener("click",function(){
-    document.querySelector(".furni-bar").style.display="block";
+    var div=document.querySelector(".furni-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 });
 document.querySelector("#two").addEventListener("click",function(){
-    document.querySelector(".rugs-bar").style.display="block";
+    var div=document.querySelector(".rugs-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 });
 document.querySelector("#three").addEventListener("click",function(){
-    document.querySelector(".decor-bar").style.display="block";
+    var div=document.querySelector(".decor-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 });
 document.querySelector("#four").addEventListener("click",function(){
-    document.querySelector(".bed-bar").style.display="block";
+    var div=document.querySelector(".bed-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 });
 document.querySelector("#five").addEventListener("click",function(){
-    document.querySelector(".home-bar").style.display="block";
+    var div=document.querySelector(".home-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 });
 document.querySelector("#six").addEventListener("click",function(){
-    document.querySelector(".kitchen-bar").style.display="block";
+    var div=document.querySelector(".kitchen-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 });
 document.querySelector("#seven").addEventListener("click",function(){
-    document.querySelector(".outdoor-bar").style.display="block";
+    var div=document.querySelector(".outdoor-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 });
 document.querySelector("#eight").addEventListener("click",function(){
-    document.querySelector(".jewelry-bar").style.display="block";
+    var div=document.querySelector(".jewelry-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 });
 document.querySelector("#nine").addEventListener("click",function(){
-    document.querySelector(".lighting-bar").style.display="block";
+    var div=document.querySelector(".lighting-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 });
 document.querySelector("#ten").addEventListener("click",function(){
-    document.querySelector(".kids-bar").style.display="block";
+    var div=document.querySelector(".kids-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 });
 document.querySelector("#eleven").addEventListener("click",function(){
-    document.querySelector(".more-bar").style.display="block";
+    var div=document.querySelector(".more-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 });
 document.querySelector("#twelve").addEventListener("click",function(){
-    document.querySelector(".ideas-bar").style.display="block";
+    var div=document.querySelector(".ideas-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 });
 window.addEventListener("mouseup",function(event){
     var box=document.querySelector(".sidebar");
@@ -94,15 +286,53 @@ window.addEventListener("mouseup",function(event){
 });
 function func(){
     var div=document.querySelector(".sidebar");
-    div.style.display="block";
-
+    
+         var ctr=-150;
+         var id=setInterval(Animate,0.025);
+         function Animate(){
+             if(ctr===0){
+                 clearInterval(id);
+             }
+             else{
+                 ctr++;
+                 div.style.marginLeft=ctr+"px";
+                 div.style.display="block";
+             }
+         }
+         
+    }
     
 
-}
+
 function myfunc(){
-    document.querySelector(".sidebar").style.display="block";
+    var div=document.querySelector(".sidebar");
+    var ctr=-150;
+         var id=setInterval(Animate,0.025);
+         function Animate(){
+             if(ctr===0){
+                 clearInterval(id);
+             }
+             else{
+                 ctr++;
+                 div.style.marginLeft=ctr+"px";
+                 div.style.display="block";
+             }
+         }
+    
 }
 function func1(){
-    document.querySelector(".furni-bar").style.display="block";
+    var div=document.querySelector(".furni-bar");
+    var ctr=-150;
+    var id=setInterval(Animate,0.025);
+    function Animate(){
+        if(ctr===0){
+            clearInterval(id);
+        }
+        else{
+            ctr++;
+            div.style.marginLeft=ctr+"px";
+            div.style.display="block";
+        }
+    }
 }
 
