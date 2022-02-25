@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+#navDetails{
+    /* border-bottom: 1px solid rgb(56, 53, 53); */
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJM2eqfkLm6B_-qv4pdL-yVb7lI9nCmEte2g&usqp=CAU");
+    width: 100%;
+    overflow-y: none;
+    margin-bottom: 50px;
+} 
+#navDetails img{
+    height: 100px;
+    justify-content: left;
+}
+#containerProduct{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between
+}
+.first, .second{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    width: 45%;
+    height: 100%;
+    padding: 10px;
+}
+.first{
+    background-color: azure;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.second{ 
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    height: 100%;
+    padding-bottom: 50px;
+} 
+#footerProduct{
+    background-color: #535658;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    height: 80px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+#footerProduct p{
+    width: 20%;
+    margin: 20px auto;
+}
