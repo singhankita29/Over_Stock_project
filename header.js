@@ -1,7 +1,6 @@
 var header = document.createElement("section")
 header.innerHTML = `
 <nav class="navbar">
-<hr>
 
 <div class="uppernav">
     <div class="burger">
@@ -1157,4 +1156,4 @@ header.innerHTML = `
 <div style="height: 350px;"></div>
 </div>`
 
-document.querySelector("#main-index").append(header)
+document.querySelector("#main-index").append(header);
