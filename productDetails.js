@@ -49,10 +49,17 @@ function display(selectedItem) {
     cartimg.style.left = "10px"
     cartimg.style.top = "10px"
     cartimg.style.zIndex = "3"
+<<<<<<< Updated upstream
     cartimg.src =  "https://img.icons8.com/external-itim2101-flat-itim2101/64/000000/external-cart-marketplace-itim2101-flat-itim2101.png"
 
     cartbutton.append(cartimg ,button)
     
+=======
+    cartimg.src = "https://img.icons8.com/external-itim2101-flat-itim2101/64/000000/external-cart-marketplace-itim2101-flat-itim2101.png"
+
+    cartbutton.append(cartimg, button)
+
+>>>>>>> Stashed changes
     var offer = document.createElement("div")
     offer.style.width = "50%"
     // offer.style.border = "2px solid black"
@@ -69,6 +76,7 @@ function display(selectedItem) {
     `
     offer.append(para)
 
+<<<<<<< Updated upstream
     var option ={
         zoomwidth : 500,
         offset : {vertical: 0,horizonal : 300},
@@ -77,6 +85,16 @@ function display(selectedItem) {
     }
 
     new ImageZoom(document.querySelector(".first"),option)
+=======
+    var option = {
+        zoomwidth: 500,
+        offset: { vertical: 0, horizonal: 300 },
+        scale: 2,
+        zoomPosition: "original",
+    }
+
+    new ImageZoom(document.querySelector(".first"), option)
+>>>>>>> Stashed changes
 
     var sale = document.createElement("div")
     sale.style.width = "50%"
@@ -87,7 +105,11 @@ function display(selectedItem) {
     sale.style.borderRadius = "5px "
     sale.innerHTML = `<p><strong>Hurry!!!</strong>
     Sale ends in <strong> 2 days </strong>. Use <strong><em>masai30</em></strong> and get <strong>30% OFF</strong>  </p>`
+<<<<<<< Updated upstream
     document.querySelector(".second").append(heading, price, cartbutton,offer,sale)
+=======
+    document.querySelector(".second").append(heading, price, cartbutton, offer, sale)
+>>>>>>> Stashed changes
 }
 
 function addToCart(item) {
