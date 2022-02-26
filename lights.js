@@ -41,6 +41,7 @@ function display(dataLights) {
         var text = document.createElement("P");
         text.innerText = item.name;
         text.style.fontSize = "14px";
+        text.setAttribute("id","productName")
         text.style.padding = "7px 7px 0 0";
         text.style.marginTop = "0";
 
@@ -70,7 +71,7 @@ function display(dataLights) {
 
         var content = document.createElement("div");
         content.append(price, text);
-        content.style.width = "80%";
+        content.style.width = "80%";      
         content.style.paddingLeft = "5px";
         content.style.paddingBottom = "5px";
 
