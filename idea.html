@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/3248356fdd.js"></script>
+
+    
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==">
+    <style>
+       .row{
+           text-align: center;
+          
+           
+       }
+       
+       .text-center {
+           font-size: 70px;
+           color: blue;
+       }
+    
+       #tips-parent-hero
+       {
+        height: 300px;
+       }
+       .p >img  {
+           border-radius: 50%;
+        
+       }
+       #container 
+       {
+           
+           display: grid;
+           grid-template-columns: repeat(3,1fr);
+           grid-template-rows: repeat(2,700px);
+           
+           gap: 30px;
+            justify-content: center;
+           
+
+       }
+       
+       .p{
+           margin-bottom: 30px;
+           margin:auto;
+           text-align: center;
+           margin-top: 100px;
+           padding: 10px;
+
+       }
+       .h3{
+        text-align: center;
+       }
+       #photo{
+           width: 75px;
+         margin: auto;
+         padding-top: 20px;
+       }
+       .para{
+           
+           margin-top: 30px;
+           font-size: 25px;
+           
+       }
+
+       #ekline{
+           
+           display: grid;
+           width: 95%;
+           grid-template-columns: repeat(6,100px);
+           grid-template-rows: 250px;
+           gap: 60px;
+           margin: auto;
+           justify-content: center;
+           padding-top: 30px;
+           /* border: 1px solid red; */
+ 
+       }
+
+       #ekline > div{
+
+      height: 280px;
+       width: 100%;
+       margin: auto;
+
+       }
+       #text{
+           text-align: center;   
+       }
+       #search>div{
+           text-align: center;
+           
+       }
+        img
+       {
+            width: 70%;
+           /* border-radius: 100%;  */
+            justify-content: center; 
+         } 
+         #heading{
+             text-align: center;
+             display: grid;
+             background-color: #626669;
+         }
+         #wp-post-search{
+             height: 50px;
+             width: 600px;
+             margin-top: 20px;
+         }
+         .search-field{
+            height: 50px;
+             width: 700px;
+         }
+         
+/* new css / {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  /* user-select: none; */
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.slideshow-container{
+    display: inline;
+    /* border: 1px solid red; */
+    margin-left: 1450px;
+    margin-right: 69px;
+}
+#slider-box1{
+background-color: #f2f2f2;
+/* height: 800px; */
+width: 90%;
+height: 300px;
+display: inline-flex;
+
+}
+.mySlides {
+/* border: 1px solid yellow; */
+margin-left: 350px;
+}
+
+
+@media all and (min-width:380px) and (max-width:700px)
+{
+    #container 
+       {
+           grid-template-columns: repeat(2,1fr);
+           grid-template-rows: repeat(2,1fr);
+}
+}
+
+@media all and (min-width:50px) and(max-width:379px)
+{
+    #container 
+       {
+           
+           display: grid;
+           grid-template-columns: repeat(1,1fr);
+           grid-template-rows: repeat(3,1fr);
+}
+}
+
+
+
+@media all and (min-width:380px) and (max-width:700px)
+{
+
+    #ekline{
+           
+           display: grid;
+           grid-template-columns: repeat(3,100px);
+           grid-template-rows: ( 2,1fr);
+           gap: 60px;
+           
+ 
+       }
+    }
+    @media all and (min-width:50px) and(max-width:379px)
+
+{
+    
+    #ekline{
+           
+           display: grid;
+           grid-template-columns: repeat(1,100px);
+           grid-template-rows: repeat(6,1fr);
+           gap: 60px;
+     }
+}
+#tips-parent-hero {
+    height: 300px;
+    margin-top: 150px;
+}
+
+    </style>
+</head>
+<body >
+<div id="main-index">
+
+</div>
+
+
+    
+    <div id="p">
+    <div id="tipsParentWrapper" class="tips-and-ideas-wrap">
+        
+        <div class="container-fluid tips-hero-image" id="tips-parent-hero" style="background-image: url(https://guides.overstock.com/wp-content/uploads/2021/12/Tips-and-Ideas-Hero-W22.png)">
+            <div class="row">
+                
+                    <div class="hero-title">
+                        <h1 class="text-center entry-title">
+                            Tips &amp; Ideas
+                        </h1>
+                        
+                        <h2>Your Everything Guide to Living in Style</h2>
+                    
+                    </div>
+                
+            </div>
+        </div>
+<!-- search part hai -->
+<div id="search">
+        <div class="col-sm-6 col-sm-offset-3">
+            <form role="search" method="get" class="search-form" action="https://www.overstock.com/guides/">
+<label for="wp-post-search" class="wp-search-label" style="position: absolute; left: -2400px;">Search Tips &amp; Ideas</label>
+<input type="search" id="wp-post-search" class="search-field" placeholder="Search All" value="" name="s" title="Search for:">
+
+<button type="submit" class="search-submit" aria-label="Search articles" value="Search"> 
+<svg viewBox="0 0 24 24" width="20" height="20">
+    <path d="M17.875 16.037a8.47 8.47 0 0 0
+        1.75-5.217c0-4.845-3.875-8.82-8.75-8.82S2 5.975 2
+        10.82c0 4.845 4 8.82 8.875 8.82 2 0 3.875-.621
+        5.25-1.74l3.75
+        3.727c.25.249.625.373.875.373s.625-.124.875-.373c.5-.497.5-1.242
+        0-1.739l-3.75-3.85zm-7 .994c-3.5
+        0-6.375-2.733-6.375-6.211s2.875-6.336 6.375-6.336 6.375
+        2.858 6.375 6.336-2.875 6.211-6.375 6.211z"></path>
+</svg> 
+</button>
+
+        </div>
+    </div>
+
+
+
+
+        <!-- search ke niche vala parts -->
+<div id="ekline">
+    <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 50 50">
+           <g fill="none" fill-rule="evenodd" stroke="#4982BD" stroke-linecap="square" stroke-width="2">
+               <path d="M16 25v6h8v-6M20 45h-8M28 45h-8M20 31v14M8 25v8M39 21v4H1v-4L14 1h12z"></path>
+           </g>
+        </svg> 
+        <div id="text"><h2 >Decorating</h2></div>
+</div>
+
+
+<div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 0 52 51">
+        <g fill="none" fill-rule="evenodd" stroke="#4982BD" stroke-width="2">
+            <path stroke-linecap="square" d="M25 24.03V.247"></path>
+            <path d="M4.57 13.837v-9.06c0-2.492 2.044-4.53 4.54-4.53h31.78c2.496 0 4.54 2.038 4.54 4.53v9.06"></path>
+            <path stroke-linecap="square" d="M5 38.753v-4.53M44 38.753v-4.53M49.969 34.223v-15.29a5.08 5.08 0 0 0-5.107-5.096 5.08 5.08 0 0 0-5.108 5.097v5.096H10.246v-5.096a5.08 5.08 0 0 0-5.108-5.097 5.08 5.08 0 0 0-5.107 5.097v15.29h49.938z"></path>
+        </g>
+    </svg>
+    <div id="text"><h2 >Rooms</h2></div>
+</div>
+
+<div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 50 50">
+        <g fill="none" fill-rule="evenodd" stroke="#4982BD" stroke-width="2">
+            <path d="M20 3.9c-5.9 2.9-10 9-10 16.1 0 .7.1 1.3.1 2M20 3.9c5.9 2.9 10 9 10 16.1 0 .7-.1 1.3-.1 2"></path>
+            <path stroke-linecap="square" d="M39.9 22C38.9 11.9 30.4 4 20 4 9.6 4 1.1 11.9.1 22h39.8zM20 44V0M12 44h16"></path>
+        </g>
+    </svg>
+    <div id="text"><h2 >Outdoor</h2></div>
+</div>
+
+<div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+        <g fill="none" fill-rule="evenodd" stroke="#4982BD" stroke-width="2">
+            <path stroke-linecap="square" d="M11 5c0-2.2 1.8-4 4-4 6 0 8 8 8 8h-8c-2.2 0-4-1.8-4-4zM35 5c0-2.2-1.8-4-4-4-6 0-8 8-8 8h8c2.2 0 4-1.8 4-4z"></path>
+            <path d="M5 35l18-18M23 45l18-18M9 45l28-28"></path>
+            <path stroke-linecap="square" d="M41 17v28H5V17M1 9h44v8H1z"></path>
+        </g>
+    </svg>
+    <div id="text"> <h2 >Holidays</h2></div>
+</div>
+
+
+<div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 50 50">
+        <g fill="none" fill-rule="evenodd" stroke="#4982BD" stroke-width="2">
+            <path d="M6 14l8-8M40 32l-8 8"></path>
+            <path stroke-linecap="square" d="M23 31l9 9 10 2-2-10-9-9M21 13L10 2l-8 8 11 11"></path>
+            <path stroke-linecap="square" d="M12 42L2 32 32 2l10 10zM20 14l2 2M26 8l4 4M14 20l4 4M8 26l2 2"></path>
+        </g>
+    </svg>
+    <div id="text"><h2 >Guides</h2></div>
+</div>
+
+<div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+        <g id="Page-1-roomideas">
+            <g id="Group-roomideas" transform="translate(9.000000, 2.000000)" stroke="#4982BD" stroke-width="2">
+                <path id="Oval-60-Copy-roomideas" class="st0" style="fill:none;stroke:#4982BD;stroke-linecap:round;stroke-linejoin:round;" d="M8.3,29.4C11,33.7,6,37,15,37s4-3.3,6.7-7.6c2.8-4.4,8.3-10,8.3-14.2C30,6.8,23.3,0,15,0
+                    S0,6.8,0,15.2C0,19.4,5.5,25,8.3,29.4z"></path>
+                <path id="Line" class="st0" d="M11,41h8" style="fill:none;"></path>
+                <path id="Line-Copy-36" class="st0" d="M11,44h8" style="fill:none;"></path>
+                <polyline id="Triangle-11" class="st0" style="fill:none;" points="7,17 13,11 19,17 		"></polyline>
+                <polyline id="Triangle-11-Copy" class="st0" style="fill:none;" points="11.5,17 17.5,11 23.5,17 		"></polyline>
+            </g>
+        </g>
+    </svg>
+    <div id="text"><h2 >
+        Room Ideas</h2></div>
+</div>
+       </div>
+
+<!-- 
+slide vala part hai yaha se -->
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      
+    
+      <img src="./Camera Roll/2nd image.png">
+    
+      <div class="text">Caption Text</div>
+    </div>
+  
+
+
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      
+      <img src="./Camera Roll/4th image.png">
+      
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+     
+      <img src="./Camera Roll/3rd image.png">
+      
+      <div class="text">Caption Three</div>
+
+
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+ 
+
+        <div id="container">
+<!-- //first vala start -->
+            <div class="p">
+                <img src="https://ak1.ostkcdn.com/wp-content/uploads/2021/12/Decorating-W22-Chubs.png"
+                 alt="ga-script-mgr"/>
+
+<div id="photo">
+                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 50 50">
+                    <g fill="none" fill-rule="evenodd" stroke="#4982BD" stroke-linecap="square" stroke-width="2">
+                        <path d="M16 25v6h8v-6M20 45h-8M28 45h-8M20 31v14M8 25v8M39 21v4H1v-4L14 1h12z"></path>
+                    </g>
+                 </svg> 
+
+                </div>
+
+                 <h2 class="h3">Decorating</h2>
+                 
+                 <p class="para">Tap into your inner interior designer and find decorating tips and ideas to inspire your home. </p>
+                
+            </div>
+            <!-- //scond vala start -->
+            <div class="p">
+                <img src="https://ak1.ostkcdn.com/wp-content/uploads/2021/12/Rooms-W22-Chubs.png"
+                 alt="ga-script-mgr"/>
+                 <div id="photo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-1 0 52 51">
+                        <g fill="none" fill-rule="evenodd" stroke="#4982BD" stroke-width="2">
+                            <path stroke-linecap="square" d="M25 24.03V.247"></path>
+                            <path d="M4.57 13.837v-9.06c0-2.492 2.044-4.53 4.54-4.53h31.78c2.496 0 4.54 2.038 4.54 4.53v9.06"></path>
+                            <path stroke-linecap="square" d="M5 38.753v-4.53M44 38.753v-4.53M49.969 34.223v-15.29a5.08 5.08 0 0 0-5.107-5.096 5.08 5.08 0 0 0-5.108 5.097v5.096H10.246v-5.096a5.08 5.08 0 0 0-5.108-5.097 5.08 5.08 0 0 0-5.107 5.097v15.29h49.938z"></path>
+                        </g>
+                    </svg>
+   
+                   </div>
+   
+                    <h2 class="h3">Rooms</h2>
+                    
+                    <p class="para">Find style advice, home improvement tips, and more for your living room, dining room, and every space in between. </p>
+                 
+            </div>
+                       <!-- //third vala start -->
+            <div class="p">
+                <img src="https://ak1.ostkcdn.com/wp-content/uploads/2022/01/Outdoor-W22-Chubs-UPDATE.png"
+                 alt="ga-script-mgr"/>
+
+                 <div id="photo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 50 50">
+                        <g fill="none" fill-rule="evenodd" stroke="#4982BD" stroke-width="2">
+                            <path d="M20 3.9c-5.9 2.9-10 9-10 16.1 0 .7.1 1.3.1 2M20 3.9c5.9 2.9 10 9 10 16.1 0 .7-.1 1.3-.1 2"></path>
+                            <path stroke-linecap="square" d="M39.9 22C38.9 11.9 30.4 4 20 4 9.6 4 1.1 11.9.1 22h39.8zM20 44V0M12 44h16"></path>
+                        </g>
+                    </svg>
+   
+                   </div>
+   
+                    <h2 class="h3">Outdoor
+                    </h2>
+                    
+                    <p class="para">Soak up the sun in your own outdoor oasis with our expert guides on everything outdoor living. </p>
+            </div>
+                       <!-- //four vala start -->
+            <div class="p">
+                <img src="https://ak1.ostkcdn.com/wp-content/uploads/2022/01/Holidays-W22-Chubs-UPDATE.png"
+                 alt="ga-script-mgr"/>
+                 <div id="photo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                        <g fill="none" fill-rule="evenodd" stroke="#4982BD" stroke-width="2">
+                            <path stroke-linecap="square" d="M11 5c0-2.2 1.8-4 4-4 6 0 8 8 8 8h-8c-2.2 0-4-1.8-4-4zM35 5c0-2.2-1.8-4-4-4-6 0-8 8-8 8h8c2.2 0 4-1.8 4-4z"></path>
+                            <path d="M5 35l18-18M23 45l18-18M9 45l28-28"></path>
+                            <path stroke-linecap="square" d="M41 17v28H5V17M1 9h44v8H1z"></path>
+                        </g>
+                    </svg>
+                    </svg> 
+   
+                   </div>
+   
+                    <h2 class="h3">Holidays
+                    </h2>
+                    
+                    <p class="para">Celebrate the holidays with savvy shopping tips and  ideas for every occasion.</p>
+            </div>
+                       <!-- //five vala start -->
+            <div class="p">
+                <img src="https://ak1.ostkcdn.com/wp-content/uploads/2022/01/Guides-W22-Chubs-UPDATE.png"
+                 alt="ga-script-mgr"/>
+                 <div id="photo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 50 50">
+                        <g fill="none" fill-rule="evenodd" stroke="#4982BD" stroke-width="2">
+                            <path d="M6 14l8-8M40 32l-8 8"></path>
+                            <path stroke-linecap="square" d="M23 31l9 9 10 2-2-10-9-9M21 13L10 2l-8 8 11 11"></path>
+                            <path stroke-linecap="square" d="M12 42L2 32 32 2l10 10zM20 14l2 2M26 8l4 4M14 20l4 4M8 26l2 2"></path>
+                        </g>
+                    </svg>
+   
+                   </div>
+   
+                    <h2 class="h3">Guides
+                    </h2>
+                    
+                    <p class="para">Explore our collection of guides to get expert tips, how-to’s, and more on all things lifestyle and home. </p>
+            </div>
+                       <!-- //six vala start -->
+            <div class="p">
+                <img src="https://guides.overstock.com/wp-content/uploads/2019/05/roomideas_img_4.30.19.jpg"
+                 alt="ga-script-mgr"/>
+                 <div id="photo">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                        <g id="Page-1-roomideas">
+                            <g id="Group-roomideas" transform="translate(9.000000, 2.000000)" stroke="#4982BD" stroke-width="2">
+                                <path id="Oval-60-Copy-roomideas" class="st0" style="fill:none;stroke:#4982BD;stroke-linecap:round;stroke-linejoin:round;" d="M8.3,29.4C11,33.7,6,37,15,37s4-3.3,6.7-7.6c2.8-4.4,8.3-10,8.3-14.2C30,6.8,23.3,0,15,0
+                                    S0,6.8,0,15.2C0,19.4,5.5,25,8.3,29.4z"></path>
+                                <path id="Line" class="st0" d="M11,41h8" style="fill:none;"></path>
+                                <path id="Line-Copy-36" class="st0" d="M11,44h8" style="fill:none;"></path>
+                                <polyline id="Triangle-11" class="st0" style="fill:none;" points="7,17 13,11 19,17 		"></polyline>
+                                <polyline id="Triangle-11-Copy" class="st0" style="fill:none;" points="11.5,17 17.5,11 23.5,17 		"></polyline>
+                            </g>
+                        </g>
+                    </svg>
+   
+                   </div>
+   
+                    <h2 class="h3">Room Ideas</h2>
+                    
+                    <p class="para">Need some inspiration? Our collection of room ideas is designed to give you the vision you need to create your perfect space!</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
+<script>
+    var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<script src="/header.js"></script>
+<script src="/index.js"></script>
