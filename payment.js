@@ -14,7 +14,7 @@ var span = document.getElementsByClassName("close")[0];
     if(cardName=="aman"&&cardNum==647786686158&&cV==123)
     {
         let tID = setTimeout(function () {
-            window.location.href="cart.html"
+            window.location.href="index.html"
             window.clearTimeout(tID);	// clear time out.
         }, 2000);
         modal1.style.display = "block";
