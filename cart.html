@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">/
+    <script src="https://use.fontawesome.com/3248356fdd.js"></script>
+    <script src="nav.js"></script>
+    <link rel="stylesheet" href="/style.css"/>
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/cart.css" />
+    <link rel="stylesheet" href="./style/footer1.css">
+  </head>
+  <body>
+    <div id="main-index"></div>
+    <!-- <div id="myModal" class="modal">
+     
+<!- modalFinish  -->
+
+
+    <div id="parent">
+      <div id="ph1">
+        <p>Shopping Cart</p>
+      </div>
+      <div id="cartS">
+        <div id="container"></div>
+        <div id="containerCont">   
+               
+        </div>
+      </div>
+
+      <div id="rightPart">
+        <!-- <h2>Apply Promo Code</h2> -->
+
+        <!-- copy myn -->
+        <div class="couponLabel">
+          Apply Coupons
+          <input type="text" id="coupon" placeholder="Apply Coupons" value="" />
+          <input type="submit" id="promo" value="Apply" />
+          ><span> to get upto ₹300 OFF on first order</span>
+        </div>
+        <!-- paaste myn -->
+
+        <div id=" dat">
+          <h3 id="discount">Discount INR 0.00</h3>
+          <h3 id="sub">
+            Sub Total After
+            <h5>Discounts</h5>
+          </h3>
+          <h3 id="total">Your Total :- INR 0.00</h3>
+        </div>
+        <button id="pay" onclick="window.location.href='payement.html'">
+          CheckOut
+        </button>
+      </div>
+
+    </div>
+    <!-- Back to top -->
+    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up">Top</i> </a>
+
+    <div id="footerA"></div>
+    <div id="footerB"></div>
+    
+  </body>
+</html>
+<script src="/header.js"></script>
+<script src="/index.js"></script>
+<script src="/carts.js">
+
+
+
+
+  // displayData(cartArr)
+  // function  displayData(cartArr){
+  // document.querySelector("#container").innerHTML=null
+  // cartArr.map(function (elem, index, array){
+
+  //     var div = document.createElement("div");
+  // var avatar = document.createElement("img");
+  // avatar.setAttribute("src", elem.image_url);
+
+  // var name = document.createElement("h4");
+  // name.innerText = elem.name;
+
+  // var price = document.createElement("h5");
+  // price.innerText = elem.price + " "+ elem.quant;
+  // console.log(elem.quant)
+
+  //   var disc = document.createElement("p");
+  // disc.innerText = elem.strikedoffprice;
+  // var btn= document.createElement("button")
+  //  btn.innerText="+"
+  //  btn.addEventListener("click",function(){
+  //     increaseQuant(index)
+  //  })
+  // div.append(avatar, name, price, disc,btn);
+  // document.querySelector("#container").append(div);
+
+  // })
+  // }
+  // //    this function show total shows call of function twice when  we call once inside increaseQuant nd in body
+  // function showTotal(){
+  //     var total= cartArr.reduce(function(acc,elem,){
+  //     return acc+= (elem.price*elem.quant)
+  //  },0)
+  //  console.log(total)
+  //  document.getElementById("total").textContent= "The total is Rs"+" :-"+total
+  // }
+  // showTotal()
+  // //coupan func//
+  //  document.querySelector("#promo").addEventListener("click",formSubmit)
+  //  function formSubmit(){
+  //      var coupon= document.querySelector("#coupon").value;
+  //      if(coupon=="masai30")
+  //      {
+  //         //  alert("succ")
+  //         var total= cartArr.reduce(function(acc,elem,){
+  //             var tot=elem.price*elem.quant
+  //             var dis=(elem.price*elem.quant*(30/100))
+  //             return acc+= tot-dis;
+  //  },0)
+  //  document.querySelector("#total").innerText=total
+  //  alert("Your coupan is applied")
+  //      }
+  //      else{
+  //          alert(" Coupan NOT applied")
+  //      }
+  //  }
+
+  // function increaseQuant(index) {
+  //      console.log(index)
+      //  cartArr[index].quant++
+  //      console.log(cartArr)
+  //      localStorage.setItem("cartItem",JSON.stringify(cartArr))
+  //      displayData(cartArr)  // this will show data when we move from men to cart//
+  //      showTotal()
+  //  }
+</script>
+<script src="footer.js"></script>

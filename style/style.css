@@ -98,7 +98,7 @@ p{
     flex-wrap: wrap; 
     margin-top: 23px;
 }
-.search-bar>input{
+.search-bar input{
     height: 35px;
     border: 1px solid grey;
     border-top-left-radius: 5px;
@@ -108,7 +108,7 @@ p{
     padding: 10px;
     background-color: rgba(225, 230, 231, 0.2)
 }
-.search-bar>button{
+.search-bar button{
     width: 40px;
     height: 35px;
     background-color: red;
@@ -116,7 +116,7 @@ p{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
-.search-bar>button>i{
+.search-bar button i{
     color: white;
     font-size: 25px;
     font-weight: 100;
@@ -151,7 +151,7 @@ p{
     margin-top: 9px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    /*grid-template-rows: repeat(2,280px);*/
+    grid-template-rows: repeat(2,280px);
     column-gap: 20px;
     row-gap: 10px;
     background-color: white;
@@ -241,17 +241,8 @@ a{
     overflow: hidden;
     margin-right: 10px;
 }
-.main-link>.cropped>img{
+.main-link>.cropped img{
     margin: -55px 0px 70px 10px;
-}
-@media all and (max-width: 19200px){
-    .search-bar{
-        height: 40px;
-        width: 68%;
-        display: flex;
-        flex-wrap: wrap; 
-        margin-top: 23px;
-      }
 }
 @media all and (max-width: 1360px){
     .search-bar{

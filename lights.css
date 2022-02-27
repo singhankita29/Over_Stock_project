@@ -123,6 +123,12 @@
     #sortdiv{
         width: 100%;
     }
+    #sortdiv{
+        display: none;
+    }
+    #filter{
+        display: none;
+    }
 }
    
 @media all and (max-width : 619px){
