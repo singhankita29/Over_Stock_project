@@ -1,4 +1,5 @@
 var header = document.createElement("section")
+
 header.innerHTML = `
 <nav class="navbar">
 
