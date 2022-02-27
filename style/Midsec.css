@@ -1,0 +1,141 @@
+.subHeading > h2 {
+    font-size: 32px;
+    margin: 0 0 32px 0;
+    font-weight: bold;
+    text-align: center;
+  }
+  .section {
+    width: 95%;
+    margin: auto;
+    font-size: 20px;
+    padding: 24px;
+    /* font-weight: 700; */
+  } 
+  #sstyle>button {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  
+  #trending {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+    text-align: center;
+  }
+  #trending > div {
+    padding: 16px;
+    color: #545658;
+    background-color: #f5f6f7;
+    /* font-weight: 700; */
+  }
+  #yourStylesec {
+    width: 100%;
+    margin: auto;
+  }
+  #yourStyle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 400px;
+    gap: 15px;
+    text-align:auto; 
+    /* font-weight: 700; */
+  }
+  #yourStyle>div{
+    background-color: rgba(228,228,228,0.3);
+  }
+  
+  #yourStyle>div>p {
+    margin-top:-12px;
+    font-weight: 300;
+    font-family: sans-serif;
+  }
+  
+  #yourStyle img {
+    width:100%;
+    height: 70%;
+  }
+  #overStock {
+    height: 325px;
+  }
+  #overStock img {
+    width: 100%;
+    height: 100%;
+  }
+  #stock {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    text-align: center;
+  }
+  #stock img {
+    width: 100%;
+    height: 70%;
+  }
+  #stock p {
+    width: 75%;
+    margin: auto;
+  }
+
+  @media all and (min-width:600px) and (max-width:900px){
+    #yourStyle {
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 400px;
+        margin-bottom: 10px;
+        background-color: white;
+        gap:30px;
+        margin:auto;
+    }
+    
+    #stock{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,250px);
+    }
+   }
+   @media all and (max-width: 700px)
+   {
+    #yourStyle {
+      grid-template-columns: repeat(1,1fr);
+      grid-template-rows:repeat(3,400px);
+      margin-bottom: 10px;
+      background-color: white;
+      gap:30px;
+      margin:auto;
+  } 
+  #trending {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+    text-align: center;
+  } 
+   }
+
+   @media all and (min-width:50px) and (max-width:599px){
+    #yourStyle {
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows:repeat(3,400px);
+        margin-bottom: 10px;
+        background-color: white;
+        gap:30px;
+        margin:auto;
+    }  
+      
+    #stock{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(1,250px);
+    }
+    #trending {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 14px;
+      text-align: center;
+    }
+       }
