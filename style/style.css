@@ -235,13 +235,13 @@ a{
     display: contents;
 
 }
-.cropped{
+.main-link>.cropped{
     height: 85px;
     width: 220px;
     overflow: hidden;
     margin-right: 10px;
 }
-.cropped img{
+.main-link>.cropped img{
     margin: -55px 0px 70px 10px;
 }
 @media all and (max-width: 1360px){
@@ -327,13 +327,13 @@ a{
     .lowernav+hr{
         display: none;
     }
-    .cropped{
+    .main-link>.cropped{
         height: 85px;
         width: 48px;
         overflow: hidden;
         margin-right: 10px;
     }
-    .cropped img{
+    .main-link>.cropped img{
         margin: -55px 0px 70px 10px;
     }
     

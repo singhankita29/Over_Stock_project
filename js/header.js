@@ -8,7 +8,8 @@ header.innerHTML = `
         <div class="line2"></div>
         <div class="line3"></div>
     </div>
-    <div class="cropped"><img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/062021/rgb.overstock_logo.primary.2021-04-08.png?zKvD93zF6Exo3AylwdRlEL2OiGi20gEi&itok=gSikhvBC"/></div>
+    <a class="main-link" href="index.html"><div class="cropped"><img src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/062021/rgb.overstock_logo.primary.2021-04-08.png?zKvD93zF6Exo3AylwdRlEL2OiGi20gEi&itok=gSikhvBC"/></div></a>
+    
     <div class="search-bar"><input type="text" placeholder="Search"/>
         <button type="submit"><i class= "fa fa-search"></i></button></div>
     <a class="likes" href="signup.html">
