@@ -1,0 +1,182 @@
+     *{
+        font-family: sans-serif;
+     }
+
+     .jheading{
+        display: flex;
+        font-size: large;
+        line-height: 35px;
+        margin-top: 150px;
+         }
+        
+        #main{
+            width: 100%;
+            display: flex;
+            font-size: large;
+            line-height: 35px;
+            margin-top: 50px;
+            margin-left: 4px;
+            gap:10px;
+         }
+    
+         #main>.leftside:nth-child(1){
+             width:30%;
+         }
+          
+         li{
+             cursor: pointer;
+         }
+
+         #main>.leftside:nth-child(2){
+            width: 50%;
+            height: 650px;
+         }
+         
+         #main>.leftside > h3{
+            font-size:25px;
+            text-align:left;
+         }
+         #main >.leftside:nth-child(3){
+           width:25%;
+           height: 650px;
+         }
+
+         #main>.leftside:nth-child(3)>img{
+             height:49%;
+             width:95%;
+             margin-left: 20px;
+         }
+         
+         .middle{
+             width: 100%;
+             height: 100%;
+         }
+         
+         #Mid{
+        font-size: 22px;
+        line-height: 30px;
+        text-align:center ;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        color: #2f3337 
+         }
+    
+         .picsec{
+             display: grid;
+             grid-template-columns:repeat(4, 1fr) ;
+             grid-template-rows: repeat(3,1fr) ;
+             gap:20px;
+             border: 1px;
+             margin: auto;
+             width: 95%;
+         }
+        
+         .picsec img{
+             height:300px;
+             width:300px;
+         }
+    
+         .picsec > div p{
+             height:40px;
+             width:300px;
+             background-color: #eaeaea;
+             color: #2f3337;
+            font-size: 20px;
+             text-align: center;
+            padding-top:10px;
+            margin-bottom:60px;
+    
+         }
+         #Rose{
+          display: grid;
+          grid-template-columns: repeat(2,1fr);
+          margin:auto;
+          gap:20px;
+          margin-bottom: 30px;
+         }
+        
+         #Rose>div img{
+             height:450px;
+             width: 700px;
+         }
+         #Rose h3{
+            font-size:28px;
+            font-family:Helvetica Neue,Helvetica,Arial,sans-serif; 
+            text-align: center;
+            color: #2f3337;  
+         }
+    
+         #Rose h3+p{
+          font-size: 16px;
+          font-family:Helvetica Neue,Helvetica,Arial,sans-serif; 
+          color:#727475;
+         }
+         
+         #read_more{
+            padding: 20px;
+            font-size: large;
+            margin-top: 20px;
+            width: 140px;
+        }
+
+         #Pink{
+          display:grid;
+          grid-template-columns: repeat(2,1fr);
+          margin:auto;
+          gap:20px;
+          margin-top: 50px;
+          margin-bottom: 30px;;
+         }
+    
+         #Pink>div img{
+            height:450px;
+            width: 700px;
+         }
+
+         #Pink h3{
+            font-size:28px;
+            font-family:Helvetica Neue,Helvetica,Arial,sans-serif; 
+            text-align: center;
+            color: #2f3337;  
+         }
+         
+         #Pink h3+p{
+          font-size: 16px;
+          font-family:Helvetica Neue,Helvetica,Arial,sans-serif; 
+          color:#727475;
+         }
+         
+         #Shopmore{
+        font-size: 24px;
+        line-height: 30px;
+        text-align:center ;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        color: #2f3337   
+         }
+    
+    
+         .Jewelery{
+             display: grid;
+             grid-template-columns:repeat(6,1fr) ;
+             grid-template-rows: repeat(3,1fr) ;
+             gap:10px;
+             border: 1px 1px 1px 1px;
+             margin-left:2px;
+             width: 95%;
+         }
+        
+         .Jewelery img{
+             height:180px;
+             width:180px;
+         }
+    
+         .Jewelery > div p{
+             height:40px;
+             width:180px;
+             color: #2f3337;
+            font-size: 20px;
+             text-align: center;
+            padding-top:10px;
+            margin-bottom:60px;
+           
+         }
+    
