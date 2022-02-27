@@ -13,7 +13,7 @@
   text-align: left;
   color: #2f3337;
   padding: 0px 0px 0px 0px;
-  margin: 0px 115px 0px 0px;
+  margin: 0px 181px 0px 0px;
   border: 1px solid #dadcdf;
   position: sticky;
 }
@@ -76,8 +76,8 @@ section > button {
   border: 1.5px solid #dadcdf;
 }
 #rightPart > button {
-  font-size: 17px;
-  height: 33px;
+  font-size: 18px;
+  height: 44px;
   background-color: #2f3337;
   color: #fff;
   border-radius: 4px;
@@ -87,15 +87,14 @@ section > button {
   font-weight: 400;
   justify-content: center;
   margin: 0;
-  padding: 0 14px;
+  padding: 0 20px;
   position: relative;
   text-decoration: none;
-  margin-left: 30px;
-  width: 67%;
+  margin-left: 15px;
+  width: 80%;
   align-items: center;
   border: 1px solid transparent;
 }
-
 #total {
   font-size: 20px;
   font-family: sans-serif;
@@ -140,13 +139,13 @@ section > button {
   font-family: sans-serif;
 }
 #coupon {
-  font-size: 9px;
+  font-size: 12px;
   text-align: center;
   font-weight: lighter;
   font-family: sans-serif;
 }
 .couponLabel:first-child {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   color: #282c3f;
   font-family: sans-serif;
@@ -242,7 +241,7 @@ section > h3 {
     font-size:19px;
   }
 }
-  @media all and (min-width: 460px) and (max-width: 880px) {
+  @media all and (min-width: 460px) and (max-width: 780px) {
     #rightPart {
       margin: 2px 0px 0px 88px;
       display: grid;
