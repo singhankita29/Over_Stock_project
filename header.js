@@ -35,7 +35,7 @@ header.innerHTML = `
     <button type="submit"><i class= "fa fa-search"></i></button></div>
 <hr>
 <div class="lowernav">
-    <div class="subnav1"><a href="#" class="navlink">Furniture</a>
+    <div class="subnav1"><a href="furniture.html" class="navlink">Furniture</a>
         <div class="furniture">
     
             <div class="subdiv">
@@ -937,14 +937,14 @@ header.innerHTML = `
 <a id="five" href="#"><div style="background-color: rgba(225,230,231,0.2);">Home Improvement<i class="fa fa-angle-right"></i></div></a>
 <a id="six" href="#"><div style="background-color: rgba(225,230,231,0.2);">Kitchen<i class="fa fa-angle-right"></i></div></a>
 <a id="seven" href="#"><div style="background-color: rgba(225,230,231,0.2);">Outdoor<i class="fa fa-angle-right"></i></div></a>
-<a id="eight" href="#"><div style="background-color: rgba(225,230,231,0.2);">Jewelry<i class="fa fa-angle-right"></i></div></a>
-<a id="nine" href="#"><div style="background-color: rgba(225,230,231,0.2);">Lighting<i class="fa fa-angle-right"></i></div></a>
+<a id="eight" href="Jewelry.html"><div style="background-color: rgba(225,230,231,0.2);">Jewelry<i class="fa fa-angle-right"></i></div></a>
+<a id="nine" href="lights.html"><div style="background-color: rgba(225,230,231,0.2);">Lighting<i class="fa fa-angle-right"></i></div></a>
 <a id="ten" href="#"><div style="background-color: rgba(225,230,231,0.2);">Kids & Baby<i class="fa fa-angle-right"></i></div></a>
 <a id="eleven" href="#"><div style="background-color: rgba(225,230,231,0.2);">More Categories<i class="fa fa-angle-right"></i></div></a>
-<a id="twelve" href="#"><div style="background-color: rgba(225,230,231,0.2);">Ideas<i class="fa fa-angle-right"></i></div></a>
+<a id="twelve" href="idea.html"><div style="background-color: rgba(225,230,231,0.2);">Ideas<i class="fa fa-angle-right"></i></div></a>
 <a id="thirteen" href="#"><div style="background-color: rgba(225,230,231,0.2); color: red;">Sales & Deals</div></a>
 <a id="ac" href="#"><div style="border:none; padding: 22px;">Account/Sign In<i class="fa fa-angle-right"></i></div></a>
-<a href="#"><div style="border:none; padding: 20px;">My Lists</div></a>
+<a href="cart.html"><div style="border:none; padding: 20px;">My Lists</div></a>
 <a id="con" href="#"><div style="border:none; padding: 20px;">Contact Us<i class="fa fa-angle-right"></i></div></a>
 <a href="#"><div style="border:none; padding: 20px;">Club O</div></a>
 <div style="height: 350px;"></div>
@@ -1111,9 +1111,9 @@ header.innerHTML = `
 <div class="acc-bar">
 <div style="background-color:red; padding:16px"><img style="margin: -125px -20px -20px -8px; height: 55px; width:55px; overflow: hidden;"src="https://s3-symbol-logo.tradingview.com/overstock--600.png"/></div>
 <div style="padding: 22px; font-size: 20px;text-align: center;"><i class="fa fa-angle-left" onclick="myfunc()"></i>My Account</div>
-<a href="#"><div style="background-color: rgba(225,230,231,0.2);">Sign In</div></a>
+<a href="signup.html"><div style="background-color: rgba(225,230,231,0.2);">Sign In</div></a>
 
-<a href="#"><div style="background-color: rgba(225,230,231,0.2);">Create Account</div></a>
+<a href="signup.html"><div style="background-color: rgba(225,230,231,0.2);">Create Account</div></a>
 
 <div style="height: 450px; border: none;"></div>
 </div>

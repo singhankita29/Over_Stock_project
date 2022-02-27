@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main-furniture{
+            font-family: sans-serif;
+            margin-top: 130px;
+            font-size: large;
+        }
+        #main-furniture p {
+            font-weight: 100;
+        }
+        #furniture{
+            display: flex;
+            font-size: large;
+            line-height: 35px;
+            margin-top: 50px;
+        }
+        #furniture>div:nth-child(1){
+            padding-top: 20px;
+            width: 25%;
+        }
+        li{
+            cursor: pointer;
+        }
+        #furniture>div:nth-child(2){
+          width: 50%;
+          height: 650px;
+        }
+        #furniture>div:nth-child(3){
+          width: 25%;
+          height: 650px;
+        }
+        #furniture>div:nth-child(3)>img{
+            width: 95%;
+            height: 49%;
+            margin-left: 20px;
+        }
+        .discount{
+            width: 100%;
+            height: 100%;
+        }
+        #Popular_furniture{
+            display: grid;
+            width: 95%;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(3,400px);
+            gap: 10px;
+            text-align: center;
+        } 
+        #tvstand{
+            display: flex;
+            margin-top:50px;
+
+        }
+        #tvstand>div:nth-child(1){
+              margin-left:20px;
+        }
+        #tvstand>div:nth-child(2){
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        #read_more{
+            padding: 20px;
+            font-size: large;
+            margin-top: 20px;
+            width: 140px;
+            
+            /* border-radius: 5px;
+            border-color: aliceblue; */
+        }
+        #blackfurniture{
+            display: flex;
+            margin-top:50px;
+        }
+        #blackfurniture>div:nth-child(1){
+            margin-left: 20px;
+        }
+       #more_furniture{
+           display: grid;
+           grid-template-columns: repeat(6,1fr);
+           grid-template-rows: repeat(3,250px);
+           text-align: center;
+           gap: 10px;
+       }
+    @media all and (min-width:500px) and (max-width:800px){
+          
+    }
+
+    @media all and (min-width:50px) and (max-width:499px){
+
+}
+       
+        
+    </style>
+    <link rel="stylesheet" href="/style/footer1.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="main-index">
+    </nav>
+   <div id="main-furniture">
+    <h1>Furniture</h1>
+    <div id="furniture">
+        <div>
+            <h2 style="margin-top:-20px;">Featured Categories</h2>
+            <ul type="none" >
+                <li>Living Room Furniture</li>
+                <li>Dining Room Furniture</li>
+                <li>Bedroom Furniture</li>
+                <li>Patio Furniture</li>
+                <li>Home Office Furniture</li>
+                <li>Small Space Furniture</li>
+                <li>Kitchen Furniture</li>
+                <li>Entryway Furniture</li>
+                <li>Bathroom Furniture</li>
+                <li>Matresses</li>
+                <li>Recreatuib Room Furniture</li>
+                <li>Kids & Toddler Room Furniture</li>
+                <li>Home Gym</li>
+                <li> <h3 style="color:red;">Shop All Furniture on Sale</h3></li>
+            </ul>
+        </div>
+        <div> 
+            <img class="discount" src="Screenshot 2022-02-25 123811.png" alt="">
+        </div>
+        <div>
+            <img src="Screenshot 2022-02-25 130417.png" alt="">
+            <img src="Screenshot 2022-02-25 130535.png" alt="">
+        </div>
+    </div>
+    <h2 style="text-align: center;margin-top: 70px;">Popular Furniture Categories</h2>
+
+    <div id="Popular_furniture">
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_FURNITURE_PopCat_1_LivingRoomFurniture.jpg?imwidth=400&impolicy=medium" alt="">
+            <p>Living Room Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_FURNITURE_PopCat_2_DiningRoomFurniture.jpg?imwidth=400&impolicy=medium" alt="">
+            <p>Dining Room Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_FURNITURE_PopCat_3_BedroomFurniture.jpg?imwidth=400&impolicy=medium" alt="">
+            <p>Bedroom Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_FURNITURE_PopCat_4_PatioFurniture.jpg?imwidth=400&impolicy=medium" alt="">
+            <p>Patio Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_FURNITURE_PopCat_5_OfficeFurniture.jpg?imwidth=400&impolicy=medium" alt="">
+            <p>Home Office Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_FURNITURE_PopCat_6_SmallSpaceFurniture.jpg?imwidth=400&impolicy=medium" alt="">
+            <p>Small Space Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_FURNITURE_PopCat_7_KitchenFurniture.jpg?imwidth=400&impolicy=medium" alt="">
+            <p>Kitchen Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_FURNITURE_PopCat_8_EntrywayFurniture.jpg?imwidth=400&impolicy=medium" alt="">
+            <p>Entryway Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/10122021_FURNI_PopCat_9.jpg?imwidth=400&impolicy=medium" alt="">
+            <p>Bathroom Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/09062021_FALL2021_Furni_PopCat_10.jpg?imwidth=400&impolicy=medium" alt="">
+            <p>Matresses</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/09062021_FALL2021_Furni_PopCat_11.jpg?imwidth=400&impolicy=medium" alt="">
+            <p>Recreatuib Room Furniture</p>
+        </div>
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/09062021_FALL2021_Furni_PopCat_12.jpg?imwidth=400&impolicy=medium" alt="">
+            <p>Kids & Toddler Room Furniture</p>
+        </div>
+    </div>
+    <div id="tvstand">
+        <div>
+            <img src="https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_FURNITURE_688x444_BG01.jpg?imwidth=1024&impolicy=medium" alt="">
+        </div>
+        <div>
+            <h2>Top 4 TV Stand Styles</h2>
+            <p>From traditional, wooden designs to metallic, urban ones, the perfect TV stand should match the decor of your living room. You can harmonize the overall look of your interior when you explore these top TV stand styles.</p>
+            <button id="read_more">Read More</button>
+        </div>
+    </div>
+    <div id="blackfurniture">
+        <div>
+            <h2>How to Decorate a Living Room With Black Furniture</h2>
+            <p>Black furniture is sleek, beautiful, and bold. With the right pieces, you can dress your living room up or down and achieve a look that feels like home. No matter what look you're going for, here are a few tips for decorating your living room with black furniture.</p>
+            <button id="read_more">Read More</button>
+        </div>
+        <div>
+            <img  src="https://ak1.ostkcdn.com/img/mxc/12202021_WINTER2022_FURNITURE_688x444_BG02.jpg?imwidth=1024&impolicy=medium" alt="">
+        </div>
+    </div>
+    <h2 style="text-align: center;margin-top: 50px;">Shop More Furniture</h2>
+    <div id="more_furniture">
+      
+    </div>
+
+   </div>
+   <div id="footerA"></div>
+   <div id="footerB"></div>
+</body>
+</html>
+<script>
+    var more_furniture=[
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular1.jpg?imwidth=200&impolicy=medium",name:"Spfas & Couches"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular2.jpg?imwidth=200&impolicy=medium",name:"Sectional Sofas"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular3.jpg?imwidth=200&impolicy=medium",name:"Living Room Seats"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular4.jpg?imwidth=200&impolicy=medium",name:"Accent Tables"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular5.jpg?imwidth=200&impolicy=medium",name:"Loveseats"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular6.jpg?imwidth=200&impolicy=medium",name:"Accent Chairs"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/12242020-gnp-furniture-219x219_shop_more_diningrm.jpg?imwidth=200&impolicy=medium",name:"Dining Sets"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular8.jpg?imwidth=200&impolicy=medium",name:"Dining Tables"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular9.jpg?imwidth=200&impolicy=medium",name:"Dining Chairs"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular10.jpg?imwidth=200&impolicy=medium",name:"Buffets"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular11.jpg?imwidth=200&impolicy=medium",name:"Bartools"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular12.jpg?imwidth=200&impolicy=medium",name:"Beds"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular13.jpg?imwidth=200&impolicy=medium",name:"Bedroom Sets"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular14.jpg?imwidth=200&impolicy=medium",name:"Headboards"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular15.jpg?imwidth=200&impolicy=medium",name:"Chests & Dresses"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular16.jpg?imwidth=200&impolicy=medium",name:"Nightstands"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/03232020-furniture-otherPopular17.jpg?imwidth=200&impolicy=medium",name:"Kids & Toddlers Beds"},
+        {image:"https://ak1.ostkcdn.com/img/mxc/071718_sale_square.svg",name:"Shop All Furniture On Sale"}
+    ];
+
+
+  more_furniture.map(function(element){
+    
+        var more_furniture_div = document.createElement("div");
+
+         var pics = document.createElement("img");
+         pics.setAttribute("src",element.image)
+
+         var names= document.createElement("p");
+         names.innerText=element.name;
+         
+        
+         more_furniture_div.append(pics,names);
+         document.querySelector("#more_furniture").append(more_furniture_div);
+    })
+</script>
+<script src="index.js"></script>
+<script src="header.js"></script>
+<script src="footer.js"></script>
