@@ -15,7 +15,7 @@ function displayData(dataLights) {
     var name = document.createElement("h5");
     name.innerText = elem.name;
     var catName = document.createElement("h2");
-    name.innerText = elem.category;
+    name.innerText = elem.name;
 
     var price = document.createElement("h4");
     price.innerText = "Sale INR " + elem.price;
