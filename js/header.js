@@ -36,7 +36,7 @@ header.innerHTML = `
     <button type="submit"><i class= "fa fa-search"></i></button></div>
 <hr>
 <div class="lowernav">
-    <div class="subnav1"><a href="#" class="navlink">Furniture</a>
+    <div class="subnav1"><a href="furniture.html" class="navlink">Furniture</a>
         <div class="furniture">
     
             <div class="subdiv">
