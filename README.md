@@ -75,16 +75,3 @@ At overstock, we strive to keep you stylish through a range of servises that inc
 
 
 
-
- <h3>Contributers </h3>
- <ol>
-  
-<!--   <a href="www.linkedin.com/in/tapish23"> LinkedIn </a> </li> -->
-<!--   https://github.com/kakashi10-23 -->
-<!--   <li>Tapish Sharma: <a href="https://github.com/kakashi10-23"> Github </a>  <a href="www.linkedin.com/in/tapish23"> LinkedIn </a> </li> -->
-  
-  <li>Tapish Sharma : https://www.linkedin.com/in/tapish23 </li>
-  <li>Aman Dubey :https://www.linkedin.com/in/aman-dubey-65170920b/ </li>
-  
-
- </ol>
